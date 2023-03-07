@@ -1,8 +1,9 @@
 <html>
     <head>
         <title>MONUMENTI MILANO</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/css.css') }}">
     </head>
-    <body>
+    <body class = "immagini">
         <a href="duomo"><img src = "{{url_for('static', filename='images/duomo.jpg')}}"></a>
         <a href="arco"><img src = "{{url_for('static', filename='images/arco.jpg')}}"></a>
         <a href="sansiro"><img src = "{{url_for('static', filename='images/sansiro.jpg')}}"></a>
